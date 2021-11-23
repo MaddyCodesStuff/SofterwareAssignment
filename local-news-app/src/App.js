@@ -2,6 +2,7 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import { Article } from "./Article";
+import WeatherReport from "./WeatherReport/WeatherReport";
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
           News Corp
         </a>
         <p>Presenting Your Local News</p>
+        <div className="weatherInfo">
+          <WeatherReport />
+        </div>
       </header>
       <main className="App-main">
         <h1>Recent News Stories</h1>

@@ -1,0 +1,11 @@
+.weatherInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    font-size: smaller;
+}
+.update{
+    font-size: large;
+}
